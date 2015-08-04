@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<meta name="viewport" content="width=device-width,user-scalable=no" >
+<link href="themes/listas3.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="phonegap.js"></script>
+<link href="Script/jquery.mobile-1.2.0.min.css" rel="stylesheet" type="text/css"> 
+<script src="Script/jquery-1.2.0.js"></script>
+<script src="Script/jquery.mobile-1.2.0.min.js" ></script>
+
+
+
+<link href="css/header.css" rel="stylesheet" type="text/css">
+</head> 
+<body> 
+<!-- HOME ---------------------------------------------------- -->
+<div data-role="page" id="page" style="background:url(Imagenes/grey_wash_wall.png)"">
+
+	
+    <div data-role="content">
+    <p align="center"><img src="Imagenes/Logo_Busca_Mulchen.png" ></p> 
+    <p align="center"> <font color="#FFFFFF">Todos los servicios de tu ciudad están aquí, ingresa, busca la categoría y encontraras lo que necesitas.</font></p> 
+    <!--<a href="#nosotros" >Nosotros</a> -->
+   <p align="center"> 
+   <img name="menu6" src="css/menu6.png" width="252" height="152" id="menu6" usemap="#m_menu6" alt="" />
+<map name="m_menu6" id="m_menu6">
+  <area shape="rect" coords="45,110,230,145"  a href="#nosotros" />
+  <area shape="rect" coords="45,59,230,94"  a href="#quiero_estar" />
+  <area shape="rect" coords="45,7,230,42" a href="#categorias" />
+</map>
+<!-- <a href="#quiero_estar" data-role="button">Botón</a>-->
+ </div> 
+        <div data-role="footer" data-position="inline" >
+          <h6>©2014 INNOVABIT</h6>
+        </div>
+		
+</div>
+
+<!-- ---------------------------------------------------------------------  -->
+<!-- BUSCAR ---------------------------------------------------- -->
+
+<div data-role="page" id="categorias" style="background:url(Imagenes/grey_wash_wall.png)">
+  <div data-role="header" ><h1>CATEGORIAS</h1><a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a></div>
+
+  <div data-role="content">
+  
+  <font color="#FFFFFF"><p align="center">Deslizate para realizar la busqueda o introduce el texto para filtrar los resultados.</p></font>
+  <ul data-role="listview"  data-theme="g" data-inset="true" data-filter="true" data-filter-placeholder="Buscar Categoria" >
+       <li><a href="#">ALIMENTO PARA MASCOTAS</a></li>
+  <li><a href="#">ARTESANIAS</a></li>
+  <li><a href="#">ARTICULOS CAZA Y PESCA</a></li>
+  <li><a href="#">ARTICULOS PARA BEBE</a></li>
+  <li><a href="#">ARTICULOS PARA COMPUTADOR</a></li>
+  <li><a href="#">BAZARES</a></li>
+  <li><a href="#">BENCINERAS</a></li>
+  <li><a href="#">BOUTIQUES</a></li>
+  <li><a href="#">CARNICERIAS</a></li>
+  <li><a href="#">COMIDA RAPIDA</a></li>
+  <li><a href="#">DESABOLLADURA Y PINTURA</a></li>
+  <li><a href="#">DISCOTECAS</a></li>
+  <li><a href="#">ELECTRICISTAS</a></li>
+  <li><a href="#">FARMACIAS</a></li>
+  <li><a href="#">FERRETERIAS</a></li>
+  <li><a href="#">FRUTERIAS Y VERDULERIAS</a></li>
+  <li><a href="#">FUNERARIAS</a></li>
+  <li><a href="#">GAS LICUADO</a></li>
+  <li><a href="#">GASFITER</a></li>
+  <li><a href="#">GIMNACIOS</a></li>
+  <li><a href="#">HOSTALES</a></li>
+  <li><a href="#">HOTELES</a></li>
+  <li><a href="#">INSTRUMENTOS MUSICALES</a></li>
+  <li><a href="#">JUGUETERIAS</a></li>
+  <li><a href="#">LIBRERIAS</a></li>
+  <li><a href="#">LICORERIAS</a></li>
+  <li><a href="#">LUBRICENTROS</a></li>
+  <li><a href="#">MADERAS</a></li>
+  <li><a href="#">MECANICOS AUTOS</a></li>
+  <li><a href="#">MINIMARKET</a></li>
+  <li><a href="#">MOTELES</a></li>
+  <li><a href="#">MUEBLERIAS</a></li>
+  <li><a href="#">MULTITIENDAS</a></li>
+  <li><a href="#">PANADERIAS</a></li>
+  <li><a href="#">PELUQUERIAS</a></li>
+  <li><a href="#">PIZERIAS</a></li>
+  <li><a href="#">PUBS</a></li>
+  <li><a href="#">RECARGA TINTAS</a></li>
+  <li><a href="#">RELOJERIAS</a></li>
+  <li><a href="#">REPARACION COMPUTADORES</a></li>
+  <li><a href="#">REPUESTOS AUTOS</a></li>
+  <li><a href="#">RESTAURANTES</a></li>
+  <li><a href="#">SERVICIOS SOLDADURA</a></li>
+  <li><a href="#">SUPERMERCADOS</a></li>
+  <li><a href="#">SUSHI</a></li>
+  <li><a href="#">TAXIS NOCTURNOS</a></li>
+  <li><a href="#">VETERINARIOS</a></li>
+  <li><a href="#">VIDRIERIAS</a></li>
+  <li><a href="#">VULCANIZACIONES</a></li>
+
+
+  </ul>
+  </div>
+  </div>
+<!-- ---------------------------------------------------------------------  -->
+<!-- QUIERO ESTAR AQUI ---------------------------------------------------- -->
+<div data-role="page" id="quiero_estar" style="background:url(imagenes/grey_wash_wall.png)">
+  <div data-role="header" ><h1>QUIERO ESTAR AQUI</h1><a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a></div>
+
+  <div data-role="content">
+  
+  <font color="#FFFFFF"><p align="justify">Si tienes un negocio o servicio y deseas aparecer en la próxima actualización de nuestra aplicación, por favor déjanos tus datos enviando un correo electrónico a contacto@buscaenmiciudad.cl y nos pondremos en contacto contigo para que seas parte del directorio de tu ciudad.</p></font>
+  <p align="center"><img src="Imagenes/red.png"></p>
+ 
+  </div>
+  </div>
+<!-- ---------------------------------------------------------------------  -->
+<!-- NOSOTROS ---------------------------------------------------- -->
+<div data-role="page" id="nosotros" style="background:url(imagenes/grey_wash_wall.png)">
+  <div data-role="header" ><h1>NOSOTROS</h1><a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a></div>
+
+  <div data-role="content">
+  
+    <p align="center"><img src="imagenes/logo_innova.png" class="ui-field-contain"> </p>
+    <font color="#FFFFFF"><p align="center">Busca Mulchen es una aplicación de INNOVAbit desarrollada por Samuel Echeverría Zambrano. </p></font>
+    
+    
+    <font color="#FFFFFF"><p align="center">Encuentra la aplicación de tu ciudad en nuestra página web y descárgala desde Google Play. Únete a nuestro Fan page de Facebook o escríbenos a nuestro correo electrónico..</p></font>
+    
+   <p align="center"> <img src="imagenes/browser.png" width="48" height="48">
+    <img src="imagenes/facebook.png" width="48" height="48">
+    <img src="imagenes/mail.png" width="48" height="48">
+    </p>
+    </div>
+  </div>
+<!-- ---------------------------------------------------------------------  -->
+
+
+</body>
+</html>

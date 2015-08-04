@@ -1,0 +1,18 @@
+/* Global Overrides */
+body { background-color: #000;
+ }
+.ui-header {
+	border: none;
+	border-bottom: 1px solid #fff;
+	-moz-box-shadow: 0px 4px 5px rgba(0,0,0,.20);
+	-webkit-box-shadow: 0px 4px 5px rgba(0,0,0,.20);
+	box-shadow: 0px 4px 5px rgba(0,0,0,.20);
+
+	
+	background: #666 url(fondo_header2.png) no-repeat right 0px;
+	padding: 5px 0px 5px 0px;
+}
+.ui-header h1.ui-title { font-size: 15px; text-align: left; color:#F00; margin: .6em 10px .8em 55px; }
+.ui-header .ui-btn-left { top: 1em; }
+
+.ui-page.ui-body-c.ui-overlay-a.ui-dialog.ui-page-active .ui-header h1.ui-title { margin: .8em 10px .8em 40px; }
